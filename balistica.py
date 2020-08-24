@@ -91,8 +91,8 @@ y3 = sol3[:,1]
 
 fig = plt.figure(1)
 plt.plot(x1,y1, label='V=0 m/s')
-plt.plot(x2,y2, label='V=10 m/s')
-plt.plot(x3,y3, label='V=20 m/s')
+plt.plot(x2,y2, label='V=10.0 m/s')
+plt.plot(x3,y3, label='V=20.0 m/s')
 
 plt.xlabel('X [m]')
 plt.ylabel('Y [m]')
