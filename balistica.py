@@ -72,7 +72,7 @@ def bala3(z,t):
     
     return zp
 
-t = sp.linspace(0,5.5,1001)
+t = sp.linspace(0,6,1001)
 #condiciones iniciales 
 vi = 100*1000./3600.
 z0 = sp.array([0,0,vi, vi])
