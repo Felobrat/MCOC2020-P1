@@ -7,7 +7,7 @@ Created on Mon Aug 31 14:41:12 2020
 import numpy as np
 from scipy.integrate import odeint
 import matplotlib.pyplot as plt
-import math
+
 # PARAMETROS
 
 pi = np.pi
