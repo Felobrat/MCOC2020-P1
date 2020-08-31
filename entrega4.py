@@ -47,7 +47,7 @@ def eulerint(zp,z0,t,Nsub=1):
     
 
 z0 = np.array([0,1])
-t = np.linspace(0,4.,1000)
+t = np.linspace(0,4.,100)
 ureal = 1/omega*np.exp(-c/(2*m)*t)*np.sin(omega*t)
 sol=odeint(zpunto,z0,t)
 soleu0 = eulerint(zpunto,z0,t,1)
