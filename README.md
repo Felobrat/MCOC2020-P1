@@ -37,3 +37,23 @@ Se presenta un grafico tridimensional de la orbita del satelite, comprobadose su
 ![SATELITE5](https://user-images.githubusercontent.com/69157203/92354238-56417300-f0b8-11ea-9c25-6297a8273ccb.png)
 
 Demorando un total de 2.5 [s] en correr el codigo.
+
+# Entrega Final
+-----------------------------------------------------------------------------------------------------------------------------------------
+Se comentan los resultados de la convergencia con la implementacion de los polinomios de Lagendre en un Modelo Geopotencial de la tierra.
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+Se implemento el modelo Geopotencial de la tierra, generando el potencial de la tierra. Esto debiese generar una convergencia a la orbita estacionaria del satelite, pero en vez de eso, no se observo cambio. Se generó una forma de incorporar más polinomios de Legendre y coeficientes, usando las funciones de numpy para ello a medida que se agregaban polinomios, no convergia, sino que aumentaba el tiempo de iteracion.
+
+Si bien, el modelo genera una forma similar al del satelite original, no se observa la convergencia con el modelo por si solo, por lo que se concluye que no es suficiente en este caso el modelo geopotencial. 
+
+![SATELITE](https://user-images.githubusercontent.com/69157203/92985428-cd944f80-f488-11ea-926b-8b69a637e627.png)
+
+
+Se considera la asociacion de las condiciones iniciales, las cuales en un estado estacionario, tiene roce y velocidades asociadas a su inercia y mása,las cuales dificultan su desplazamiento y pudiesen interferir en el modelo. se observa que la convergencia a medida que avanza el tiempo de orbita diverge, asociado a los graficos adjuntos. 
+
+![SATELITE2](https://user-images.githubusercontent.com/69157203/92985430-cec57c80-f488-11ea-8ec5-ef8672031713.png)
+
+es probable que la implementacion no haya sido la adecuada del modelo geopotencial porque no se vio cambios significativos, pero no se pudo compensar las diferencias de forma satisfactoria a menos de cambair las condiciones iniciales.
+
+
