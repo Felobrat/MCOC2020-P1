@@ -52,7 +52,7 @@ Si bien, el modelo genera una forma similar al del satelite original, no se obse
 
 Se considera la asociacion de las condiciones iniciales, las cuales en un estado estacionario, tiene roce y velocidades asociadas a su inercia y mása,las cuales dificultan su desplazamiento y pudiesen interferir en el modelo. se observa que la convergencia a medida que avanza el tiempo de orbita diverge, asociado a los graficos adjuntos. 
 
-![SATELITE2](https://user-images.githubusercontent.com/69157203/92985430-cec57c80-f488-11ea-8ec5-ef8672031713.png)
+![SATELITE2](https://user-images.githubusercontent.com/69157203/92985544-041e9a00-f48a-11ea-8d7c-c8f9b986c0cf.png)
 
 es probable que la implementacion no haya sido la adecuada del modelo geopotencial porque no se vio cambios significativos, pero no se pudo compensar las diferencias de forma satisfactoria a menos de cambair las condiciones iniciales.
 
